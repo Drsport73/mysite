@@ -1,0 +1,147 @@
+body {
+  background-color: rgba(169, 161, 157, 25%);
+}
+
+.container {
+  width: 850px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.table tr {
+  text-align: center;
+}
+.моисоцсети {
+  background-color: #6666;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.моисоцсети a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s;
+  border-radius: 4px;
+}
+
+.моисоцсети a:hover {
+  color: rgba(12, 0, 0, 0.4);
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.хобби {
+  background-color: #6666;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.job {
+  background-color: #6666;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.связаться {
+  width: 850;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.связаться h2 {
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container2 {
+  display: flex;
+  margin-top: 10px;
+  margin: auto;
+}
+
+.npt {
+  width: 380px;
+  height: 30px;
+  display: block;
+  outline: none;
+  border: 0;
+  background-color: rgba(169, 161, 157, 1%);
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(29, 28, 28, 0.4);
+  font-family: inherit;
+}
+.npt2 {
+  display: block;
+  width: 380px;
+  height: 30px;
+  margin-left: 40px;
+  outline: none;
+  border: 0;
+  background-color: rgba(169, 161, 157, 1%);
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(29, 28, 28, 0.4);
+  font-family: inherit;
+}
+
+.label-email {
+  padding-bottom: 19px;
+  margin-left: 40px;
+}
+
+.textarea .label {
+  font-size: 12;
+  font: inherit;
+}
+
+.textarea {
+  margin-top: 30px;
+  font-family: inherit;
+}
+
+.смс {
+  width: 800px;
+  background-color: rgba(169, 161, 157, 1%);
+  border: none;
+  border-bottom: 1px solid rgba(29, 28, 28, 0.4);
+  padding-right: 20px;
+  outline: none;
+}
+@media (max-width: 850px) {
+  .container {
+    width: 650px;
+    font-size: 14px;
+    margin: auto;
+  }
+  .photo {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .моисоцсети {
+    padding: auto;
+  }
+}
+
+.смс textarea :active {
+  border: none;
+  border-bottom: rgba(29, 28, 28, 0.4);
+}
